@@ -1,0 +1,214 @@
+@import "compass";
+.vol1{
+  background: url(../img/back.png);
+  font-family: Meiryo, 'Hiragino Kaku Gothic Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  .header{
+    h1{
+      margin: 20px 0;
+      padding: 0 20px;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 26px;
+      span{
+        color: #3b73af;
+      }
+    }
+  }
+  h2,h3,h4,h5,h6{
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+  .main{
+    margin-bottom: 30px;
+    padding: 30px 0;
+    @include background-image(linear-gradient(left top, #4e98e7, #4ee7cc));
+    text-align: center;
+    img{
+      border: rgba(255,255,255,0.4) 1px solid;
+    }
+  }
+  h2{
+    font-size: 18px;
+    color: #4e98e7;
+  }
+  h3{
+    padding-bottom: 6px;
+    border-bottom: #ccc 1px solid;
+    
+    span{
+      padding: 0 10px 10px 5px;
+      border-bottom: #3b73af 2px solid;
+      line-height: 1.3;
+    }
+  }
+  .headline{
+    line-height: 1.6;
+  }
+  .information{
+    width: 90%;
+    th,td{
+      background: #fff;
+      font-size: 13px;
+    }
+  }
+  .sessions{
+    margin-bottom: 30px;
+    h4{
+      padding-top: 10px;
+    }
+    p{
+      margin-bottom: 20px;
+    }
+    dl{
+      margin-bottom: 10px;
+    }
+    dt{
+      margin-bottom: 8px;
+      font-size: 16px;
+    }
+    dd{
+      margin: 0 10px 0 0;
+      padding: 0;
+    }
+    .sns{
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      li{
+        display: inline-block;
+        margin-right: 6px;
+      }
+      a{
+        display: inline-block;
+        width: 51px;
+        padding: 10px 0;
+        -webkit-border-radius: 120px;
+        -moz-border-radius: 120px;
+        border-radius: 120px;
+        background: #4e98e7;
+        color: #fff;
+        text-align: center;
+        font-size: 30px;
+        text-decoration: none;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        &:hover{
+          background: #99caff;
+        }
+      }
+    }
+  }
+  .accordion-group{
+    background: #f5f5f5;
+    .accordion-inner{
+      background: #fff;
+    }
+  }
+  .map{
+    margin-bottom: 10px;
+    iframe{
+      width: 100%;
+      height: 280px;
+      -webkit-border-radius: 8px;
+      -moz-border-radius: 8px;
+      border-radius: 8px;
+    }
+  }
+  .access{
+    margin: 0 0 30px;
+    padding: 0;
+    font-size: 13px;
+    list-style: none;
+    li{
+      margin-bottom: 6px;
+    }
+    i{
+      margin-right: 10px;
+    }
+  }
+  .entry{
+    margin-bottom: 40px;
+    padding: 20px 0;
+    background: #4e98e7;
+    color: #fff;
+    text-align: center;
+    .date{
+      font-size: 21px;
+      font-weight: bold;
+      line-height: 1.6;
+      span{
+        font-size: 13px;
+      }
+    }
+    a{
+      display: block;
+      margin: 0 10px;
+    }
+    .place{
+      font-size: 13px;
+    }
+  }
+  .speaker{
+    margin-bottom: 30px;
+    padding: 15px 15px 0 15px;
+    background: #f5f5f5;
+    border: #eee 1px solid;
+    dl{
+      margin: 0 0 20px;
+      dt{
+        margin-bottom: 10px;
+        font-size: 12px;
+      }
+      ul{
+        margin: 0 0 0 10px;
+        padding: 0;
+        font-size: 12px;
+      }
+      span{
+        display: block;
+        margin-left: 20px;
+        font-size: 10px;
+      }
+    }
+  }
+  .timetable{
+    margin-bottom: 5px;
+    th,td{
+      background: #fff;
+    }
+  }
+  .timetable-note{
+    margin-bottom: 30px;
+    font-size: 11px;
+  }
+  .about{
+    font-size: 12px;
+  }
+  .social-btn{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li{
+      display: inline-block;
+    }
+  }
+  .footer{
+    margin-top: 60px;
+    padding: 60px 0 20px;
+    color: #fff;
+    @include background-image(linear-gradient(left top, #4e98e7, #4ee7cc)); 
+    .logo{
+      margin-bottom: 20px;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 24px;
+      span{
+        font-size: 10px;
+      }
+      a{
+        color: #fff;
+      }
+    }
+    .copyright{
+      font-size: 10px;
+    }
+  }
+}
